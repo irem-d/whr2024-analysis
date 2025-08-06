@@ -5,27 +5,17 @@ Created on Wed Aug  2025
 @author: İrem Demirtaş
 """
 
-
-
-
 import pandas as pd
 
 df = pd.read_csv("WHR2024.csv")
 
 print(df.head())
 
-
-
 print(df.info())
-
 
 print(df.describe())
 
-
 print(df.columns)
-
-
-
 
 
 
@@ -49,8 +39,6 @@ plt.ylim(0, 8)
 plt.show()
 
 
-
-
 factors = [
     'Explained by: Log GDP per capita',
     'Explained by: Social support',
@@ -68,7 +56,6 @@ plt.title('Mutluluğa En Çok Katkı Yapan Faktörler (Ortalama)')
 plt.ylabel('Ortalama Değer')
 plt.xticks(rotation=45, ha='right')
 plt.show()
-
 
 
 
@@ -125,5 +112,6 @@ plt.title('En Mutlu 5 Ülkenin Mutluluğa Katkı Faktörleri')
 plt.legend()
 plt.tight_layout()
 plt.show()
+
 
 
