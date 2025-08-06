@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+
 """
-Created on Wed Aug  6 03:35:37 2025
+Created on Wed Aug  2025
 
 @author: İrem Demirtaş
 """
@@ -125,4 +125,5 @@ plt.title('En Mutlu 5 Ülkenin Mutluluğa Katkı Faktörleri')
 plt.legend()
 plt.tight_layout()
 plt.show()
+
 
